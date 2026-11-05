@@ -1,0 +1,2 @@
+- Fonts: Rubik is loaded from Google Fonts (see the <link> in each page's <head>).
+- Colors/fonts/spacing: all in assets/style.css (teal is #4eaaa9).
