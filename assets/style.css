@@ -154,3 +154,9 @@ footer a{color:#aaa}footer a:hover{color:#fff}footer p{margin:0 0 16px}footer b{
 .btn.slate{background:#747e7e;border-color:#747e7e}
 .btn.slate:hover{background:var(--ink);border-color:var(--ink)}
 }
+
+/* Call bar overlaps hero by ~20% of its height */
+.callbar{margin-top:-12px}
+@media(max-width:860px){
+  .callbar{margin-top:-20px}
+}
