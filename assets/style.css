@@ -148,11 +148,9 @@ footer a{color:#aaa}footer a:hover{color:#fff}footer p{margin:0 0 16px}footer b{
   .hero-info{position:static;transform:none;width:100%;max-width:340px;margin-top:18px}
 }
 
-/* Book + Call us pair in the call bar */
-.callbar .callbtns{display:flex;gap:4px;align-self:stretch;flex:none}
+/* Book + Call us pair in the call bar (equal widths) */
+.callbar .callbtns{display:grid;grid-template-columns:1fr 1fr;gap:4px;align-self:stretch;flex:none}
+.callbar .callbtns .btn{justify-content:center}
 .btn.slate{background:#747e7e;border-color:#747e7e}
 .btn.slate:hover{background:var(--ink);border-color:var(--ink)}
-@media(max-width:860px){
-  .callbar .callbtns{align-self:stretch}
-  .callbar .callbtns .btn{flex:1}
 }
